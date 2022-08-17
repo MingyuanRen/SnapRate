@@ -1,1 +1,1 @@
-# twitter-term-1
+# mini-twitter
