@@ -3,7 +3,7 @@ from comments.models import Comment
 from likes.services import LikeService
 from rest_framework import serializers
 from rest_framework.exceptions import ValidationError
-from tweets.models import Tweet
+from share.models import Tweet
 
 
 class CommentSerializer(serializers.ModelSerializer):

@@ -4,7 +4,7 @@ from django.contrib.contenttypes.models import ContentType
 from likes.models import Like
 from rest_framework import serializers
 from rest_framework.exceptions import ValidationError
-from tweets.models import Tweet
+from share.models import Tweet
 
 
 class LikeSerializer(serializers.ModelSerializer):

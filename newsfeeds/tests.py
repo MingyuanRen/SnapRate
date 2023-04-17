@@ -3,7 +3,7 @@ from newsfeeds.models import NewsFeed, HBaseNewsFeed
 from newsfeeds.services import NewsFeedService
 from newsfeeds.tasks import fanout_newsfeeds_main_task
 from testing.testcases import TestCase
-from twitter.cache import USER_NEWSFEEDS_PATTERN
+from post.cache import USER_NEWSFEEDS_PATTERN
 from utils.redis_client import RedisClient
 
 

@@ -4,7 +4,7 @@ from django.contrib.contenttypes.models import ContentType
 from django.db import models
 from django.db.models.signals import post_save, pre_delete
 from likes.models import Like
-from tweets.models import Tweet
+from share.models import Tweet
 from utils.memcached_helper import MemcachedHelper
 
 

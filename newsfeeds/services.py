@@ -1,7 +1,7 @@
 from gatekeeper.models import GateKeeper
 from newsfeeds.models import NewsFeed, HBaseNewsFeed
 from newsfeeds.tasks import fanout_newsfeeds_main_task
-from twitter.cache import USER_NEWSFEEDS_PATTERN
+from post.cache import USER_NEWSFEEDS_PATTERN
 from utils.redis_helper import RedisHelper
 from utils.redis_serializers import DjangoModelSerializer, HBaseModelSerializer
 

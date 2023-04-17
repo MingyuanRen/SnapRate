@@ -3,7 +3,7 @@ from utils.redis_helper import RedisHelper
 
 
 def incr_comments_count(sender, instance, created, **kwargs):
-    from tweets.models import Tweet
+    from share.models import Tweet
     from django.db.models import F
 
     if not created:
@@ -16,7 +16,7 @@ def incr_comments_count(sender, instance, created, **kwargs):
 
 
 def decr_comments_count(sender, instance, **kwargs):
-    from tweets.models import Tweet
+    from share.models import Tweet
     from django.db.models import F
 
     # handle comment deletion

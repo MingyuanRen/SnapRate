@@ -1,6 +1,6 @@
 from django.contrib.auth.models import User
 from django_hbase import models
-from tweets.models import Tweet
+from share.models import Tweet
 from utils.memcached_helper import MemcachedHelper
 
 
