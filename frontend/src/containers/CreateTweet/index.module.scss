@@ -1,0 +1,24 @@
+@import '../../index.scss';
+.content {
+  padding: 20px;
+}
+.avatar {
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+}
+.left {
+  width: 57px;
+  display: inline-block;
+  vertical-align: top;
+}
+.right {
+  width: calc(100% - 57px);
+  display: inline-block;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.button {
+  border-top: solid 1px #eff3f4;
+  padding-top: 10px;
+}

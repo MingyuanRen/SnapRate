@@ -1,0 +1,55 @@
+@import '../../index.scss';
+
+.container {
+  padding: 15px;
+}
+.title {
+  height: 50px;
+  color: $tBlackColor;
+  font-size: 16px;
+  font-weight: 700;
+}
+.avatar {
+  height: 42px;
+  width: 42px;
+}
+.listItem {
+  height: 50px;
+  color: $tBlackColor;
+  font-size: 14px;
+  .info {
+    margin-left: 10px;
+  }
+}
+.nickname {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.username {
+  color: $tFontColor;
+}
+.follower {
+  margin: 20px 0;
+}
+.number1 {
+  font-weight: 700;
+  margin-right: 5px;
+}
+.number2 {
+  composes: number1;
+  margin-left: 10px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: $tBlackColor;
+  font-size: 16px;
+  font-weight: 700;
+  height: 50px;
+  border-top: 1px solid $tBorderColor;
+  line-height: 50px;
+  padding-left: 15px;
+}

@@ -1,0 +1,35 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  margin: 0;
+}
+
+$tBlue: #1d9bf0;
+$tGray: #868a8c;
+$tGrayWhite: #cfd9de;
+$tFontColor: #536471;
+$tBorderColor: #eee;
+$tBlackColor: #0f1419;
+:root:root {
+}
+.adm-text-area {
+  --placeholder-color: #536471;
+}
+.adm-tabs-content {
+  padding: 0;
+}
+.adm-tabs-tab {
+  font-size: 14px;
+}
+.adm-tabs-tab-active {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+}
+.adm-list-item {
+  background: none;
+}

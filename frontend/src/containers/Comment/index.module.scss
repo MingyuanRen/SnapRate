@@ -1,0 +1,39 @@
+@import '../../index.scss';
+.container {
+  background-color: #fff;
+  padding: 20px 0;
+  :global(.adm-step .adm-step-indicator) {
+    width: 70px;
+  }
+  :global(.adm-step-content .adm-step-title) {
+    margin-top: -10px;
+    color: #333;
+  }
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.header {
+  height: 20px;
+  font-size: 14px;
+  .nickname {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  .username {
+    color: $tFontColor;
+  }
+}
+.recommit {
+  margin-top: 10px;
+  color: $tFontColor;
+  font-size: 14px;
+  font-weight: 400;
+  .commitName {
+    margin-left: 5px;
+    color: #1d9bf0;
+  }
+}

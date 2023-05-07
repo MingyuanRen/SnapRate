@@ -1,0 +1,28 @@
+.login {
+  padding: 40px;
+}
+
+.footerButton {
+  margin: 20px auto;
+  border-radius: 50px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  height: 40px;
+  width: 100%;
+}
+
+.formContainer {
+  composes: formContainer from '../../common.module.scss';
+}
+
+.goToRegister {
+  font-size: 14px;
+  a {
+    margin-left: 5px;
+  }
+}
+
+.formTitle {
+  composes: formTitle from '../../common.module.scss';
+}
